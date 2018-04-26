@@ -1,0 +1,15 @@
+---
+# - running:
+#   - if server is not running: start it
+#   - if server is running: do nothing
+# - restarted:
+#   - if server is not running: start it
+#   - if server is running: kill the process, start new server
+# - idempotent:
+#   - if server is not running: do nothing
+#   - if server is running: do nothing
+# - stopped:
+#   - if server is not running: do nothing
+#   - if server is running: kill the process
+opcua_state: 'restarted'
+

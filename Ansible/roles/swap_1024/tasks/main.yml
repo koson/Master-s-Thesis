@@ -1,0 +1,19 @@
+  # we need the extra ram for the ros builds
+- name: check if swap is enabled and size=1GB
+  shell: free -m | grep 1023
+  register: swap_check
+  ignore_errors: true
+
+- name: Update swap size to 1GB 
+  lineinfile:
+    path: /etc/dphys-swapfile
+    regexp: '^CONF_SWAPSIZE='
+    line: 'CONF_SWAPSIZE=1024'
+  when: swap_check|failed
+
+- name: Enforce the changes in the swap configuration file 
+  shell: "{{ item }}"
+  with_items:
+    - dphys-swapfile setup
+    - dphys-swapfile swapon
+  when: swap_check|failed

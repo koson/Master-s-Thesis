@@ -1,2 +1,8 @@
 
-Code/Tutorials/CodeLiteProject/
+cmake-build-debug/
+
+CMakeLists\.txt
+
+\.idea/
+
+open62541

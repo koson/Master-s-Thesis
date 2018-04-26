@@ -4,7 +4,7 @@
 
 int main(void){
 UA_Client *client = UA_Client_new(UA_ClientConfig_default);
-UA_StatusCode retval = UA_Client_connect(client,"opc.tcp://localhost:4840");
+UA_StatusCode retval = UA_Client_connect(client,"opc.tcp://10.200.2.14:4840");
 if(retval != UA_STATUSCODE_GOOD){
 UA_Client_delete(client);
 return (int)retval;
