@@ -27,7 +27,7 @@ telegraf_install_url:
 
 # You need to make sure that telegraf_influxdb_urls points to the correct ip/port pair that is listening for it
 telegraf_influxdb_urls:
-  - http://10.200.0.110:8086
+  - http://192.168.178.61:8086
 telegraf_influxdb_database: telegraf
 telegraf_influxdb_precision: s
 telegraf_influxdb_retention_policy: autogen
