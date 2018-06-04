@@ -1,0 +1,19 @@
+% !TeX root = ../main.tex
+% Add the above to each chapter to make compiling the PDF easier in some editors.
+
+\chapter{Introduction}\label{chapter:introduction}
+
+\section{Motivation and Objective}
+
+Information transfer is an essential factor in today´s automation systems.  It is also difficult to integrate new devices and sensors without a communication platform. Furthermore, the complexity increased by considering different operating systems and hardware types. To control the complexity, uniform communication standards, either for direct communication between communication partners or for the use of middleware in order to meet the requirements of automation technology should be defined. Currently, there are many different communication protocols such as OPC UA, MQTT, DDS, ROS or Field Busses available. Companies and researchers in Europe mainly prefer OPC Unified Architecture, on the other hand in USA DDS is more widely used.
+
+OPC Unified Architecture (OPC UA) is the current OPC Foundation’s technology for secure, reliable and interoperable transport of raw and pre-processed information is already a mature specification used in industrial environments. The most common use case is an OPC UA server acting as a gateway exposing data from underlying data source to OPC UA clients residing on a higher level of automation. OPC classic was not popular as the current version.  The rapid diffusion of the classical version of OPC was too focused on Microsoft due to the choice of Microsoft´s DCOM as the technological basis. Thus, it was not suitable for use in cross-domain scenarios.  
+Current literature presents few papers dealing with the performance evaluation of OPC UA; most of them focus only on particular services and/or aspects of the OPC UA specification. It can be seen that in previous studies section that, performance evaluation is carried on considering only the security mechanisms and services provided by OPC UA, comparisons between OPC UA and precious specifications (COM- and XML- based) and real measurements of communication stack are shown; the results presented are interesting but limited to few real scenarios and are not able to point out different hardware platforms.
+The aim of this thesis is to deal with the performance evaluation of OPC UA by using the open62541 framework to point out the performance differences between different hardware platforms.
+
+% To Do: ADD PAPER BIBLIOGRAPHY
+
+
+\section{Structure of Thesis}
+
+In this thesis, the performance evaluation of the embedded devices using open62541 framework is documented. The necessary knowledge based are laid down in Chapter 2. Measure Calculation is described in Chapter 3. Chapter 4 explains the database translation. The results of this interdisciplinary project are summarized in Chapter 5, with an outlook on a possible further development of the application. 

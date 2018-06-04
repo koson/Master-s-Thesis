@@ -1,0 +1,79 @@
+---
+- name: Ensure /etc/opcua dir exists
+  file: 
+    path: /etc/opcua 
+    state: directory
+    owner: '{{ ansible_user }}'
+  become: true
+
+# https://open62541.org/releases/b916bd0611.zip
+- name: Copy files extracted from the release https://open62541.org/releases/b916bd0611.zip 2017-11-16 11:07:56
+  copy:
+    src: '{{ item }}'
+    dest: '/etc/opcua/{{ item }}'
+    owner: '{{ ansible_user }}'
+  with_items:
+    - CPUServerGeneral.c
+    - CPUTestingServerAddingSingleVariableNode.c
+    - CPUTestingServerAddingArrayNode.c
+    - open62541.c
+    - open62541.h
+
+- name: Build using the command 'gcc -std=c99 open62541.c -D_POSIX_C_SOURCE=199309L CPUServerGeneral.c -o CPUServerGeneral'
+  shell: gcc -std=c99 open62541.c -D_POSIX_C_SOURCE=199309L CPUServerGeneral.c -o CPUServerGeneral
+  args:
+    chdir: /etc/opcua/ 
+
+- name: Run CPUServerGeneral with nohup. output is forwarded to log.txt
+  shell: nohup ./CPUServerGeneral >> log.txt &
+  args:
+    chdir: /etc/opcua/
+  when: (opcua_state == "running" and not port_check.failed) or
+        (opcua_state == "restarted")
+
+- name: Build using the command 'gcc -std=c99 open62541.c -D_POSIX_C_SOURCE=199309L CPUTestingServerAddingSingleVariableNode.c -o CPUTestingServerAddingSingleVariableNode'
+  shell: gcc -std=c99 open62541.c -D_POSIX_C_SOURCE=199309L CPUTestingServerAddingSingleVariableNode.c -o CPUTestingServerAddingSingleVariableNode
+  args:
+    chdir: /etc/opcua/ 
+
+- name: Run CPUTestingServerAddingSingleVariableNode with nohup. output is forwarded to log.txt
+  shell: nohup ./CPUTestingServerAddingSingleVariableNode >> log.txt &
+  args:
+    chdir: /etc/opcua/
+  when: (opcua_state == "running" and not port_check.failed) or
+        (opcua_state == "restarted")
+
+- name: Build using the command 'gcc -std=c99 open62541.c -D_POSIX_C_SOURCE=199309L CPUTestingServerAddingArrayNode.c -o CPUTestingServerAddingArrayNode'
+  shell: gcc -std=c99 open62541.c -D_POSIX_C_SOURCE=199309L CPUTestingServerAddingArrayNode.c -o CPUTestingServerAddingArrayNode
+  args:
+    chdir: /etc/opcua/ 
+
+- name: Run CPUTestingServerAddingArrayNode with nohup. output is forwarded to log.txt
+  shell: nohup ./CPUTestingServerAddingArrayNode >> log.txt &
+  args:
+    chdir: /etc/opcua/
+  when: (opcua_state == "running" and not port_check.failed) or
+        (opcua_state == "restarted")
+
+
+- name: Check if port 4840 is used
+  wait_for:
+    port: 4840
+    state: stopped
+    timeout: 2
+  ignore_errors: yes
+  register: port_check
+  when: opcua_state == "running"
+
+- name: If server is running, kill it (when opcua_state == "restarted" or "stopped")
+  shell: fuser -k -n tcp 4840
+  ignore_errors: yes
+  when: opcua_state == "restarted" or opcua_state == "stopped"
+
+- name: Wait for the server to be closed
+  wait_for:
+    port: 4840
+    state: stopped
+    timeout: 10
+  when: opcua_state == "restarted" or opcua_state == "stopped"
+
