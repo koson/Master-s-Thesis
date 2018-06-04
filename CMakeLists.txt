@@ -25,19 +25,19 @@ add_subdirectory(open62541)
 #    MESSAGE(FATAL_ERROR "You need to define WIFI_SSID and WIFI_PWD using cmake options")
 #endif()
 #
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Code/Testing/certificates)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Code/Testing_Platform/certificates)
 
 add_executable(Master_s_Thesis
-        Code/Testing/Server/commonServerMethods.h
-                Code/Testing/Server/CpuServerClass.h
-                Code/Testing/Server/MainServer.c
-                Code/Testing/Server/custom_datatype.h
-                Code/Testing/Server/EncryptionServerClass.h
-                Code/Testing/Server/NetworkingServerClass.h
-                Code/Testing/Server/DiscoveryServerClass.h
+        Code/Testing_Platform/Server/commonServerMethods.h
+                Code/Testing_Platform/Server/CpuServerClass.h
+                Code/Testing_Platform/Server/MainServer.c
+                Code/Testing_Platform/Server/custom_datatype.h
+                Code/Testing_Platform/Server/EncryptionServerClass.h
+                Code/Testing_Platform/Server/NetworkingServerClass.h
+                Code/Testing_Platform/Server/DiscoveryServerClass.h
 
   )
-include_directories(Master_s_Thesis Code/Testing)
+include_directories(Master_s_Thesis Code/Testing_Platform)
 target_link_libraries(Master_s_Thesis open62541 ${open62541_LIBRARIES})
 
 #Server Configuration
