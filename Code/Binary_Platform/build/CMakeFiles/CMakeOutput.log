@@ -1,0 +1,310 @@
+The target system is: Arduino -  - 
+The host system is: Linux - 4.13.0-43-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/3.11.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e814/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e814.dir/build.make CMakeFiles/cmTC_9e814.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e814.dir/testCCompiler.c.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_9e814.dir/testCCompiler.c.obj   -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9e814
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e814.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_9e814.dir/testCCompiler.c.obj  -o cmTC_9e814 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd0dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd0dd.dir/build.make CMakeFiles/cmTC_cd0dd.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cd0dd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd0dd.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj  -o cmTC_cd0dd 
+Using built-in specs.
+Reading specs from /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2
+COLLECT_GCC=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper
+Target: avr
+Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/home/jenkins/workspace/avr-gcc/label/debian7-x86_64/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
+Thread model: single
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/bin/
+LIBRARY_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_cd0dd' '-specs=device-specs/specs-avr2'
+ /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/collect2 -plugin /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3HQgtB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_cd0dd -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2 -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib --gc-sections CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cd0dd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cd0dd.dir/build.make CMakeFiles/cmTC_cd0dd.dir/build]
+  ignore line: [make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cd0dd]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd0dd.dir/link.txt --verbose=1]
+  ignore line: [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj  -o cmTC_cd0dd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/home/jenkins/workspace/avr-gcc/label/debian7-x86_64/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_cd0dd' '-specs=device-specs/specs-avr2']
+  link line: [ /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/collect2 -plugin /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3HQgtB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_cd0dd -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2 -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib --gc-sections CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3HQgtB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cd0dd] ==> ignore
+    arg [-L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2] ==> dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2]
+    arg [-L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc] ==> dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc]
+    arg [-L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib] ==> dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_cd0dd.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  collapse library dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2] ==> [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2]
+  collapse library dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc] ==> [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc]
+  collapse library dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib] ==> [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/avr/lib]
+  implicit libs: [gcc;m;c]
+  implicit dirs: [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2;/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc;/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca340/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca340.dir/build.make CMakeFiles/cmTC_ca340.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca340.dir/feature_tests.c.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c11 -o CMakeFiles/cmTC_ca340.dir/feature_tests.c.obj   -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ca340
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca340.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_ca340.dir/feature_tests.c.obj  -o cmTC_ca340 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1846f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1846f.dir/build.make CMakeFiles/cmTC_1846f.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1846f.dir/feature_tests.c.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c99 -o CMakeFiles/cmTC_1846f.dir/feature_tests.c.obj   -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1846f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1846f.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_1846f.dir/feature_tests.c.obj  -o cmTC_1846f 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e0c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e0c1.dir/build.make CMakeFiles/cmTC_7e0c1.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e0c1.dir/feature_tests.c.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c90 -o CMakeFiles/cmTC_7e0c1.dir/feature_tests.c.obj   -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7e0c1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e0c1.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_7e0c1.dir/feature_tests.c.obj  -o cmTC_7e0c1 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9de33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9de33.dir/build.make CMakeFiles/cmTC_9de33.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9de33.dir/testCXXCompiler.cxx.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_9de33.dir/testCXXCompiler.cxx.obj -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9de33
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9de33.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_9de33.dir/testCXXCompiler.cxx.obj  -o cmTC_9de33 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b089d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b089d.dir/build.make CMakeFiles/cmTC_b089d.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b089d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b089d.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_b089d 
+Using built-in specs.
+Reading specs from /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2
+COLLECT_GCC=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper
+Target: avr
+Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/home/jenkins/workspace/avr-gcc/label/debian7-x86_64/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
+Thread model: single
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/bin/
+LIBRARY_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_b089d' '-specs=device-specs/specs-avr2'
+ /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/collect2 -plugin /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD8IXvy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_b089d -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2 -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib --gc-sections CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b089d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b089d.dir/build.make CMakeFiles/cmTC_b089d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b089d]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b089d.dir/link.txt --verbose=1]
+  ignore line: [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_b089d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/home/jenkins/workspace/avr-gcc/label/debian7-x86_64/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/:/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_b089d' '-specs=device-specs/specs-avr2']
+  link line: [ /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/collect2 -plugin /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD8IXvy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_b089d -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2 -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc -L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib --gc-sections CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+    arg [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../libexec/gcc/avr/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccD8IXvy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b089d] ==> ignore
+    arg [-L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2] ==> dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2]
+    arg [-L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc] ==> dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc]
+    arg [-L/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib] ==> dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_b089d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  collapse library dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2] ==> [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2]
+  collapse library dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc] ==> [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc]
+  collapse library dir [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib] ==> [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/avr/lib]
+  implicit libs: [gcc;m;gcc;m;c]
+  implicit dirs: [/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2;/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/lib/gcc;/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2f0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2f0f.dir/build.make CMakeFiles/cmTC_b2f0f.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2f0f.dir/feature_tests.cxx.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++14 -o CMakeFiles/cmTC_b2f0f.dir/feature_tests.cxx.obj -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b2f0f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2f0f.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_b2f0f.dir/feature_tests.cxx.obj  -o cmTC_b2f0f 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22e3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22e3b.dir/build.make CMakeFiles/cmTC_22e3b.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22e3b.dir/feature_tests.cxx.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++11 -o CMakeFiles/cmTC_22e3b.dir/feature_tests.cxx.obj -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_22e3b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22e3b.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_22e3b.dir/feature_tests.cxx.obj  -o cmTC_22e3b 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d18b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d18b.dir/build.make CMakeFiles/cmTC_1d18b.dir/build
+make[1]: Entering directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d18b.dir/feature_tests.cxx.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++98 -o CMakeFiles/cmTC_1d18b.dir/feature_tests.cxx.obj -c /home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1d18b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d18b.dir/link.txt --verbose=1
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_1d18b.dir/feature_tests.cxx.obj  -o cmTC_1d18b 
+make[1]: Leaving directory '/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/build/CMakeFiles/CMakeTmp'
+
+

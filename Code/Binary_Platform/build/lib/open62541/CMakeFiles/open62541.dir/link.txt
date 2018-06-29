@@ -1,0 +1,2 @@
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/espressif/esp32/tools/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc ../../bin/libopen62541.a  CMakeFiles/open62541-object.dir/open62541.c.obj
+/home/cgtybsr/Desktop/MyThesis/Master-s-Thesis/open62541-arduino/tools/travis/arduino-1.8.5/hardware/espressif/esp32/tools/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib ../../bin/libopen62541.a

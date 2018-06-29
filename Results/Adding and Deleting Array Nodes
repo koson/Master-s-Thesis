@@ -1,12 +1,13 @@
-Adding 1 nodes took about 0.00001 seconds
-Deleting 1 nodes took about 0.00000 seconds
-Adding 10 nodes took about 0.00004 seconds
-Deleting 10 nodes took about 0.00002 seconds
-Adding 100 nodes took about 0.00042 seconds
-Deleting 100 nodes took about 0.00015 seconds
-Adding 1000 nodes took about 0.01043 seconds
-Deleting 1000 nodes took about 0.00251 seconds
-Adding 10000 nodes took about 0.74470 seconds
-Deleting 10000 nodes took about 0.15810 seconds
-Adding 100000 nodes took about 74.62203 seconds
-Deleting 100000 nodes took about 17.34852 seconds
+Raspberry Pi
+Adding 50000 single variable nodes took about 385.38214 seconds
+Deleting 50000 single variable nodes took about 86.42855 seconds
+Adding 50000 batch nodes took about 192.34228 seconds
+Deleting 50000 batch nodes took about 43.09007 seconds
+Time : 373218 
+Average milliseconds of Connecting 20 Clients : 18660
+
+Time : 305608139 
+Average milliseconds of Getting Single 100000 Values : 3056 
+
+Time : 313004701 
+Average milliseconds of Getting Batch 100000 Values : 3130 
